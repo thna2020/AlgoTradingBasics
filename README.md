@@ -1,4 +1,4 @@
-# Notes on Algorithmic Trading
+# Algorithmic Trading Basics
 
 ## Quantitative Analysis
 
@@ -11,6 +11,8 @@ The main difference between quantitatve analysis and technical analysis is that 
 - Risk - Premium
 - Seasonality Effect
 - Momentum Strategy (Spot & Derivative)
+    - Principal component analysis (PCA) is a technique for reducing the dimensionality of such datasets, increasing interpretability but at the same time minimizing information loss. It does so by creating new uncorrelated variables that successively maximize variance.
+    - PCA squeezes stock dataset from (2515x30) matrix to (20x30) components for a latest day: 2021-12-02. Total variance of data is explained by 20 components (factor_betas) is about 92.5%, which is a very good rate.
 - Quantitative Value Investing Strategy
 - Machine Learning
 
@@ -39,8 +41,48 @@ The main difference between quantitatve analysis and technical analysis is that 
 - Sortino ratio
 - Percentage of positive months (%)
 
-# Common Charts
-- Growth of $1 invested in Company A (compared to a benchmark i.e. S&P 500)
+### Risk Premium
+- Ann. return (%)
+- Ann. volatility (%)
+- Ann. Sharpe
+- Ave. Ann. Turnover (%)
+- Tot. Profit ($)
+- Costs (%Profit)
+
+### Backtest
+- Annual return (%)
+- Cumulative returns (%)
+- Annual volatility (%)
+- Sharpe ratio
+- Calmar ratio
+- Stability
+- Max drawdown (%)
+- Omega ratio
+- Sortino ratio
+- Skew
+- Kurtosis
+- Tail ratio
+- Daily value at risk (%)
+- Alpha
+- Beta
+
+## Common Charts
+- Growth of $1 invested in Company A ($ - compared to a benchmark i.e. S&P 500)
+- Profitability distribution (y-axis: %)
+- Cumulative returns (y-axis: cumulative returns)
+- Rolling portfolio beta to (some market index - y-axis: beta)
+- Rolling Sharpe ratio (6-month - y-axis: Sharpe ratio)
+- Underwater plot (y-axis: drawdown)
+- Cumulative returns on Country A and Country B asset classes, Year - Year
+- PCA [x-axis: principal components; y-axis: explained variance ratio || cumulative explained variance (overhead line), individual explained variance (bar)]
+
+## Challenges Faced By Quant Analysts & Traders in Frontier Markets
+- Market information and statistics are not synchronized to conduct a complete quantitative analysis. Individual traders face even more obstacles in this regards due to even greater lack of trustworthy publicly available information.
+- Lack of dependable quant analysis tools; available tools mostly depend on technical analysis tools i.e. charting analysis tools.
+- Lack of softwares to connect brokers as well as to allow individual brokers auto-trading.
+- Lack of instructional courses on this topic.
+- Lack of publicly available quantitative analysis research: most effective investing strategies have been kept private.
+- Required familiarity with programming (R & Python), data science (with a focus in finance), and trading / auto-trading.
 
 ## Glossary
 | Vocabulary | Definition |
@@ -58,3 +100,6 @@ The main difference between quantitatve analysis and technical analysis is that 
 | EBITDA | EBITDA, or earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances. |
 | Quantitative Analysis (QA) | QA is a technique that uses mathematical and statistical modeling, measurement, and research to understand behavior. Quantitative analysts represent a given reality in terms of a numerical value. |
 | IB Trader Workstation (TWS) | A market maker-designed IB Trader Workstation (TWS) that lets traders, investors and institutions trade stocks, options, futures, currencies, bonds and funds on over 135 markets worldwide from a single integrated account. |
+| Credit Suisse | Credit Suisse Group AG is a global investment bank and financial services firm founded and based in Switzerland. |
+| Frontier Market | A frontier market is a country that is more established than the least developed countries (LDCs) but still less established than the emerging markets because it is too small, carries too much inherent risk, or is too illiquid to be considered an emerging market. Frontier markets are also known as pre-emerging markets. |
+
