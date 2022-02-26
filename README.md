@@ -20,6 +20,28 @@ The main difference between quantitatve analysis and technical analysis is that 
 - Backtest hypothesis / strategy
 - Implement strategy
 
+## Common Statistics
+
+### General
+- Annualized return (%)
+- (Year) return (% - typically the returns of the most recent 2 - 5 years)
+- Last 3 months (%)
+- Return since inception (%)
+- Best monthly return (%)
+- Worst monthly return (%)
+
+### Risk / Return
+- Annualized standard deviation (%)
+- Downside deviation (%)
+- Upside deviation (%)
+- Maximum drawdown (%)
+- Sharpe ratio
+- Sortino ratio
+- Percentage of positive months (%)
+
+# Common Charts
+- Growth of $1 invested in Company A (compared to a benchmark i.e. S&P 500)
+
 ## Glossary
 | Vocabulary | Definition |
 | --- | --- |
@@ -35,7 +57,4 @@ The main difference between quantitatve analysis and technical analysis is that 
 | Renaissance Technologies LLC | Renaissance Technologies LLC, also known as RenTech or RenTec, is an American hedge fund based in East Setauket, New York, on Long Island, which specializes in systematic trading using quantitative models derived from mathematical and statistical analysis. |
 | EBITDA | EBITDA, or earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances. |
 | Quantitative Analysis (QA) | QA is a technique that uses mathematical and statistical modeling, measurement, and research to understand behavior. Quantitative analysts represent a given reality in terms of a numerical value. |
-
-
-# Common Charts
-- Growth of $1 invested in Company A (compared to a benchmark i.e. S&P 500)
+| IB Trader Workstation (TWS) | A market maker-designed IB Trader Workstation (TWS) that lets traders, investors and institutions trade stocks, options, futures, currencies, bonds and funds on over 135 markets worldwide from a single integrated account. |
