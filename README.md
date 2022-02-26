@@ -10,11 +10,10 @@ The main difference between quantitatve analysis and technical analysis is that 
 
 - Risk - Premium
 - Seasonality Effect
-- Momentum Strategy (Spot & Derivative)
+- Momentum Strategy (Spot & Derivative) - ML
     - Principal component analysis (PCA) is a technique for reducing the dimensionality of such datasets, increasing interpretability but at the same time minimizing information loss. It does so by creating new uncorrelated variables that successively maximize variance.
     - PCA squeezes stock dataset from (2515x30) matrix to (20x30) components for a latest day: YYYY-MM-DD. Total variance of data is explained by 20 components (factor_betas) is about 92.5%, which is a very good rate.
 - Quantitative Value Investing Strategy
-- Machine Learning
 
 ## Quantitative Investing Process
 - Collect data
@@ -66,6 +65,13 @@ The main difference between quantitatve analysis and technical analysis is that 
 - Alpha
 - Beta
 
+### Momentum
+- Momentum (1YR, 6MNT, 1QTR, 1MNT, 1WK)
+- Mean reversion 5Day
+- Mean reversion 5Day smoothed
+- Overnight sentiment
+- Overnight sentiment smoothed
+
 ## Common Charts
 - Growth of $1 invested in Company A ($ - compared to a benchmark i.e. S&P 500)
 - Profitability distribution (y-axis: %)
@@ -75,6 +81,10 @@ The main difference between quantitatve analysis and technical analysis is that 
 - Underwater plot (y-axis: drawdown)
 - Cumulative returns on Country A and Country B asset classes, Year - Year
 - PCA [x-axis: principal components; y-axis: explained variance ratio || cumulative explained variance (overhead line), individual explained variance (bar)]
+- Momentum - Alpha factors cumulative returns for all quantiles
+    - Momentum factors perform the best
+    - Sentiment factors show a fair to weak performance
+    - Mean reversion factors show poor perform performance
 
 ## Challenges Faced By Quant Analysts & Traders in Frontier Markets
 - Market information and statistics are not synchronized to conduct a complete quantitative analysis. Individual traders face even more obstacles in this regards due to even greater lack of trustworthy publicly available information.
