@@ -12,7 +12,7 @@ The main difference between quantitatve analysis and technical analysis is that 
 - Seasonality Effect
 - Momentum Strategy (Spot & Derivative)
     - Principal component analysis (PCA) is a technique for reducing the dimensionality of such datasets, increasing interpretability but at the same time minimizing information loss. It does so by creating new uncorrelated variables that successively maximize variance.
-    - PCA squeezes stock dataset from (2515x30) matrix to (20x30) components for a latest day: 2021-12-02. Total variance of data is explained by 20 components (factor_betas) is about 92.5%, which is a very good rate.
+    - PCA squeezes stock dataset from (2515x30) matrix to (20x30) components for a latest day: YYYY-MM-DD. Total variance of data is explained by 20 components (factor_betas) is about 92.5%, which is a very good rate.
 - Quantitative Value Investing Strategy
 - Machine Learning
 
