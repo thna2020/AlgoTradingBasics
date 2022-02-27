@@ -2,10 +2,8 @@
 
 ## Quantitative Analysis
 
-Quantitative analysis is applied to measure and assess efficiency and value of financial tools as well as to predict future events, i.e., change in stock profitability.
-
-Quantitative analysis involves building computerized trading models and aids investors in assessing investment opportunities as well as in developing the most successful trading strategy and investing basket.
-
+Quantitative analysis is applied to measure and assess efficiency and value of financial tools as well as to predict future events, i.e., change in stock profitability. Quantitative analysis involves building computerized trading models and aids investors in assessing investment opportunities as well as in developing the most successful trading strategy and investing basket. Compared to normal charting analysis, quantitative analysis is more disciplined, systemic, and synchronized with convenient backtesting and varying trading frequencies thanks to computer programs.
+ 
 The main difference between quantitatve analysis and technical analysis is that quantitative analysts do not focus on what the market will be like in the future. Rather, quantitative analysts try to develop a trading and investing strategy that can be quantified.
 
 - Risk - Premium
@@ -29,6 +27,17 @@ The main difference between quantitatve analysis and technical analysis is that 
 3. Risk premium - investing basket, portfolio
 4. Manual trading
 5. Auto-trading with backtest simulator
+
+### Risk Parity Strategy
+1. Build trading bot
+2. Backtest and optimize parameters
+3. Test on demo account
+4. Live trading on real account
+5. Track & quality control
+- Buy from 3 stock tickers and keep them for a considerable period of time (>= 12 months) for maximal effectiveness.
+- Capital is distributed according to volatility target (10-15% risk).
+- Adjust monthly based on volatility - risk
+    - Bot buys on the 19th and sells on the 25th monthly.
 
 ## Common Statistics
 
@@ -104,6 +113,9 @@ The main difference between quantitatve analysis and technical analysis is that 
 | Max drawdown | 38% | 26% | 16% |
 | Sharpe ratio | 0.99 | 1.34 | 1.34 |
 
+## Technical Analysis on Trading View
+
+
 ## Challenges Faced By Quant Analysts & Traders in Frontier Markets
 - Market information and statistics are not synchronized to conduct a complete quantitative analysis. Individual traders face even more obstacles in this regards due to even greater lack of trustworthy publicly available information.
 - Lack of dependable quant analysis tools; available tools mostly depend on technical analysis tools i.e. charting analysis tools.
@@ -131,4 +143,4 @@ The main difference between quantitatve analysis and technical analysis is that 
 | Credit Suisse | Credit Suisse Group AG is a global investment bank and financial services firm founded and based in Switzerland. |
 | Frontier Market | A frontier market is a country that is more established than the least developed countries (LDCs) but still less established than the emerging markets because it is too small, carries too much inherent risk, or is too illiquid to be considered an emerging market. Frontier markets are also known as pre-emerging markets. |
 | Volatility | Risk management (volatility 25% for risk appetitte 25%). |
-
+| Quality Control | Quality control involves testing units and determining if they are within the specifications for the final product. The purpose of the testing is to determine any needs for corrective actions in the manufacturing process. Good quality control helps companies meet consumer demands for better products. |
