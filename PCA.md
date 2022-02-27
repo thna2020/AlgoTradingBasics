@@ -18,4 +18,7 @@ Some statements are correlated, so the team might not need all the data &rarr; P
 ## Covariance Matrix
 1. Find the mean of each column and subtract the mean from each element of the column.
 2. Call the new 1,000 x 7 matrix X. Each column of X has mean zero.
-3. Let K = X^TX
+3. Let K = (X^T)X, where K is the 7 x 7 matrix of covariances.
+- The diagonal entries give the variances of the variables.
+- The (3,4) entry gives the covariance between the 3rd and 4th statements.
+- High covariance means close to a linear relationship. Zero covariance means no correlation.
