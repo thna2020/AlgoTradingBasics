@@ -98,6 +98,8 @@ The main difference between quantitatve analysis and technical analysis is that 
 ## Tables
 ### Comparisons between investing baskets with different levels of risk
 | Ratio | Basket A | Basket B (risk 25%) | Basket B (15%) |
+| --- | --- | --- | --- |
+
 
 
 ## Challenges Faced By Quant Analysts & Traders in Frontier Markets
