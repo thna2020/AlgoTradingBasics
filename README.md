@@ -16,10 +16,19 @@ The main difference between quantitatve analysis and technical analysis is that 
 - Quantitative Value Investing Strategy
 
 ## Quantitative Investing Process
+
+### General
 - Collect data
 - Develop hypothesis / strategy
 - Backtest hypothesis / strategy
 - Implement strategy
+
+### Quantitative Analysis & Auto-Trading
+1. Cumulative returns
+2. Annualized volatility - 30 day window
+3. Risk premium - investing basket, portfolio
+4. Manual trading
+5. Auto-trading with backtest simulator
 
 ## Common Statistics
 
@@ -86,6 +95,11 @@ The main difference between quantitatve analysis and technical analysis is that 
     - Sentiment factors show a fair to weak performance
     - Mean reversion factors show poor perform performance
 
+## Tables
+### Comparisons between investing baskets with different levels of risk
+| Ratio | Basket A | Basket B (risk 25%) | Basket B (15%) |
+
+
 ## Challenges Faced By Quant Analysts & Traders in Frontier Markets
 - Market information and statistics are not synchronized to conduct a complete quantitative analysis. Individual traders face even more obstacles in this regards due to even greater lack of trustworthy publicly available information.
 - Lack of dependable quant analysis tools; available tools mostly depend on technical analysis tools i.e. charting analysis tools.
@@ -112,4 +126,5 @@ The main difference between quantitatve analysis and technical analysis is that 
 | IB Trader Workstation (TWS) | A market maker-designed IB Trader Workstation (TWS) that lets traders, investors and institutions trade stocks, options, futures, currencies, bonds and funds on over 135 markets worldwide from a single integrated account. |
 | Credit Suisse | Credit Suisse Group AG is a global investment bank and financial services firm founded and based in Switzerland. |
 | Frontier Market | A frontier market is a country that is more established than the least developed countries (LDCs) but still less established than the emerging markets because it is too small, carries too much inherent risk, or is too illiquid to be considered an emerging market. Frontier markets are also known as pre-emerging markets. |
+| Volatility | Risk management (volatility 25% for risk appetitte 25%). |
 
