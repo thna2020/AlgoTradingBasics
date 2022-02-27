@@ -1,5 +1,6 @@
 # Principal Component Analysis (PCA)
 
+## Why PCA?
 Your team surveys 1,000 users about a particular mobile phone application. The survey has 7 statements, and the users are asked to indicate their opinion on a scale of 1 (very disastified) to 5 (very satisfied) about the app. The statements are:
 
 1. The app is easy to install.
@@ -12,4 +13,9 @@ Your team surveys 1,000 users about a particular mobile phone application. The s
 
 Your team collects data in a 1,000 x 7 matrix Y. Each column is for one statement. Each row corresponds to one user.
 
-Some statements are correlated, so the team might not need all the data. &rarr; Principal Component Analysis (PCA).
+Some statements are correlated, so the team might not need all the data &rarr; PCA.
+
+## Covariance Matrix
+1. Find the mean of each column and subtract the mean from each element of the column.
+2. Call the new 1,000 x 7 matrix X. Each column of X has mean zero.
+3. Let K = X^TX
