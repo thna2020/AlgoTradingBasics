@@ -99,8 +99,10 @@ The main difference between quantitatve analysis and technical analysis is that 
 ### Comparisons between investing baskets with different levels of risk
 | Ratio | Basket A | Basket B (risk 25%) | Basket B (15%) |
 | --- | --- | --- | --- |
-
-
+| Annualized profit | 25% | 27% | 17% |
+| Annualized volatility - risk | 26% | 20% | 12% |
+| Max drawdown | 38% | 26% | 16% |
+| Sharpe ratio | 0.99 | 1.34 | 1.34 |
 
 ## Challenges Faced By Quant Analysts & Traders in Frontier Markets
 - Market information and statistics are not synchronized to conduct a complete quantitative analysis. Individual traders face even more obstacles in this regards due to even greater lack of trustworthy publicly available information.
