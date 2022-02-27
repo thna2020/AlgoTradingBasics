@@ -9,3 +9,7 @@ Your team surveys 1,000 users about a particular mobile phone application. The s
 5. Support team does a great job of answering user's questions.
 6. Documentation is clear to follow.
 7. The app is worth its price.
+
+Your team collects data in a 1,000 x 7 matrix Y. Each column is for one statement. Each row corresponds to one user.
+
+Some statements are correlated, so the team might not need all the data. &rarr; Principal Component Analysis (PCA).
